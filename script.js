@@ -13,8 +13,3 @@ document.querySelectorAll('.site-nav a').forEach((link) => {
   });
 });
 
-document.querySelector('.updates-form').addEventListener('submit', (event) => {
-  event.preventDefault();
-  const formNote = document.querySelector('.form-note');
-  formNote.textContent = 'Thank you — the conference team will share updates soon.';
-});
